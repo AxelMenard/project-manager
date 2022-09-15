@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue';
+import CloudItem from "../components/templates/CloudItem.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>This is an home page</h1>
+    <CloudItem></CloudItem>
   </main>
 </template>
